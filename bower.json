@@ -16,6 +16,8 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.5",
-    "iknsa-frontend-framework": "~0.0.1"
+    "iknsa-frontend-framework": "~0.0.1",
+    "css": "https://raw.githubusercontent.com/mouskito/mca-loyer/master/css/style.css",
+    "css": "https://raw.githubusercontent.com/mouskito/mca-loyer/master/css/css_old/font.css"
   }
 }

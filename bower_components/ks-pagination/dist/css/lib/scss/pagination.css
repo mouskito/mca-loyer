@@ -1,6 +1,0 @@
-/* line 6, ../../../../lib/scss/pagination.scss */
-.pagination input, .pagination a, .pagination div, .pagination span, .pagination li, .pagination button {
-  display: inline-block;
-  text-decoration: none;
-  color: #535353;
-}
