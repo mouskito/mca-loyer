@@ -19,6 +19,26 @@
 // }
 
 
+//die($error);
+function connectionOK(){
+$erreur = "<div id='log'><a href='index.php'> Connecte toi </a> ou";
+$erreur .= "<a href='inscription.php'> Crée ton compte </a></div><hr/><hr/>";
+$erreur .= "<div class='error'><div id='img_err'><img src='img/oups2.gif'></div>";
+$erreur .= " <div id='mgs_err'> <blockquote id='style1'>Cette appli releve du domaine du privè. <br>";
+$erreur .= "alors tu degage !!! <br>";
+$erreur .= "<br>Pour plus de details, veuillez contacter l'administrateur.";
+$erreur .= "</blockquote> </div></div> ";
+
+    if (isset($_SESSION['pseudo']) && isset($_SESSION['modpass'])  != "" ) {
+                //if (check_login ()) {
+         
+            echo " <div id='log'>Bonjour ".$_SESSION['pseudo']. "| <a href='logout.php'>Déconnexion</a></div><hr/><hr/>"; 
+                include 'include/nav.php'; }
+                else
+                    die($erreur) ;
+        
+}
+
 // Déconnexion automatique au bout de 30 minutes d'inactivité
 function sessionExpire() {
   if (isset($_SESSION['countdown']) && (time() - $_SESSION['countdown'] > 1800)) {
@@ -31,24 +51,24 @@ function sessionExpire() {
 }
 
 function isAdmin() {
-	if($_SESSION['Statut'] == "ADM") return TRUE;
+	if($_SESSION['statut'] == "ADM") return TRUE;
 	return FALSE;
 }
 
 function isAdminDir() {
-	if($_SESSION['Statut'] == "DIR") return TRUE;
+	if($_SESSION['statut'] == "DIR") return TRUE;
 	return FALSE;
 }
 
 //MCA 06/12/13
 function isAdminEta() {
-	if($_SESSION['Statut'] == "MAG") return TRUE;
+	if($_SESSION['statut'] == "MAG") return TRUE;
 	return FALSE;
 }
 
 
 function isRoot() {
-	if($_SESSION['Statut'] == "ADM") return TRUE;
+	if($_SESSION['statut'] == "ADM") return TRUE;
 	return FALSE;
 }
 

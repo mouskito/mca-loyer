@@ -1,0 +1,10 @@
+/* line 7, ../../../../lib/scss/list.scss */
+.list.block li, .list.block div, .list.block span, .list.block p, .list.block a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 12, ../../../../lib/scss/list.scss */
+.list.inline li, .list.inline div, .list.inline span, .list.inline p, .list.inline a {
+  display: inline-block;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "loyer",
+  "version": "1.0.0",
+  "authors": [
+    "Moussa.Camara <msa.camara@gmail.com>"
+  ],
+  "description": "projet camara",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "iknsa-frontend-framework": "~0.0.1"
+  }
+}

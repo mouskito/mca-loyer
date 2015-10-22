@@ -16,7 +16,7 @@ session_start();
     <title>Loyer - Accueil</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Style -->
     <link href="css/font.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">		

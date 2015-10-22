@@ -1,0 +1,27 @@
+{
+  "name": "ks-list",
+  "version": "0.0.3",
+  "homepage": "https://github.com/ks-frontend/ks-list.git",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "Basic styling of lists to extend from",
+  "main": "lib/list.scss",
+  "keywords": [
+    "list, styling, css, jquery, ks-list, ks-frontend-framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/contrib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ks-core": "~0.0.2"
+  },
+  "devDependencies": {
+  }
+}

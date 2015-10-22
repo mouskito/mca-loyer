@@ -1,0 +1,36 @@
+{
+  "name": "ks-login",
+  "version": "0.0.2",
+  "homepage": "https://github.com/ks-frontend/ks-login.git",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "ks-frontend-framework login theme",
+  "main": "lib/login.scss",
+  "keywords": [
+    "login, styling, css, jquery ks-login, ks-frontend-framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/contrib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ks-core": "~0.0.2",
+    "ks-buttons": "~0.0.3"
+  },
+  "devDependencies": {},
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "5df97ebe478c9cda81bbbd56fb8e04c0ba88d771"
+  },
+  "_source": "git://github.com/ks-frontend/ks-login.git",
+  "_target": "0.0.2",
+  "_originalSource": "ks-login"
+}

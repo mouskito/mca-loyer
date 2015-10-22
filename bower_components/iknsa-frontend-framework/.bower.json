@@ -1,0 +1,56 @@
+{
+  "name": "iknsa-frontend-framework",
+  "version": "0.0.1",
+  "homepage": "https://github.com/iknsa/frontend-framework",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "The ultimate Front End Framework entirely extendable and personalisable",
+  "keywords": [
+    "frontend",
+    "framework",
+    "front",
+    "end",
+    "ks-framework",
+    "ks-frontend-framework",
+    "iknsa",
+    "iknsa-frontend-framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "iknsa-form-2016": "0.0.1",
+    "iknsa-nav-2016": "0.0.0",
+    "iknsa-tables-2016": "0.0.0",
+    "iknsa-pagination-2016": "0.0.0",
+    "ks-base": "0.0.3",
+    "ks-breadcrumb": "0.0.2",
+    "ks-buttons": "0.0.3",
+    "ks-components": "0.0.3",
+    "ks-core": "0.0.2",
+    "ks-dock": "0.0.3",
+    "ks-fonts": "0.0.3",
+    "ks-form": "0.0.2",
+    "ks-list": "0.0.3",
+    "ks-login": "0.0.2",
+    "ks-normalize": "0.0.2",
+    "ks-pagination": "0.0.2",
+    "ks-tables": "0.0.2"
+  },
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "828cea98145d109b5674488df6ce95925e734396"
+  },
+  "_source": "git://github.com/iknsa/frontend-framework.git",
+  "_target": "~0.0.1",
+  "_originalSource": "iknsa-frontend-framework",
+  "_direct": true
+}

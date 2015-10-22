@@ -1,0 +1,27 @@
+{
+  "name": "iknsa-form-2016",
+  "version": "0.0.1",
+  "homepage": "https://github.com/iknsa-themes/iknsa-form-2016.git",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "The iknsa-form-2016 is the 2016 theme of the iknsa-frontend-framework",
+  "main": "lib/form.scss",
+  "keywords": [
+    "iknsa-frontend-framework, iknsa-form-2016, library, form, jquery, events"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/contrib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ks-form": "~0.0.1"
+  },
+  "devDependencies": {
+  }
+}

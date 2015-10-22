@@ -1,0 +1,36 @@
+{
+  "name": "ks-tables",
+  "version": "0.0.2",
+  "homepage": "https://github.com/ks-frontend/ks-tables",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "A simple library for common tables on web site.",
+  "main": "lib/tables.js",
+  "keywords": [
+    "ks-frontend-framework",
+    "tables"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/contrib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ks-core": "~0.0.2"
+  },
+  "devDependencies": {},
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "cdde0ea8c56e952e4f935d90a3eef18b363ec5b9"
+  },
+  "_source": "git://github.com/ks-frontend/ks-tables.git",
+  "_target": "0.0.2",
+  "_originalSource": "ks-tables"
+}
