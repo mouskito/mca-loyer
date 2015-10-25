@@ -1,6 +1,0 @@
-/*!
- * ks-login - v0.0.2 - 2015-03-11
- * https://github.com/ks-frontend/ks-login
- * Copyright (c) 2015 
- * Licensed ISC
- */.login,.login-box,.login-box label{display:inline-block}#login{text-align:center;float:unset}#login footer{min-width:100%;position:absolute;bottom:0}.login-box{border:1px solid #535353;text-align:initial;margin:30px auto 0;padding:20px}.login-box label{width:100px}.login-box .forgot-pass{float:right}
