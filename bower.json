@@ -15,7 +15,6 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.5",
-    "iknsa-frontend-framework": "~0.0.1"
+    "bootstrap": "~3.3.5"
   }
 }
