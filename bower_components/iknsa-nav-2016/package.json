@@ -1,0 +1,37 @@
+{
+  "name": "iknsa-nav-2016",
+  "version": "0.0.0",
+  "description": "This library contains the basics of navigation system for the iknsa-frontend-framework but which can be used as standalone.",
+  "main": "templates/nav.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ks-frontend/iknsa-nav-2016.git"
+  },
+  "keywords": [
+    "iknsa-frontend-framework",
+    "nav",
+    "css",
+    "variables",
+    "mixins",
+    "compass",
+    "jquery"
+  ],
+  "author": "Khalid Sookia <khalidsookia@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ks-frontend/iknsa-nav-2016/issues"
+  },
+  "homepage": "https://github.com/ks-frontend/iknsa-nav-2016",
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-uglify": "^0.8.0",
+    "load-grunt-tasks": "^3.1.0"
+  }
+}

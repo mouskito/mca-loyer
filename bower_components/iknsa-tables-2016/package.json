@@ -1,0 +1,39 @@
+{
+  "name": "iknsa-tables-2016",
+  "version": "0.0.0",
+  "description": "The iknsa-frontend-framework 2016 theme for tables styling",
+  "main": "templates/iknsa-tables-2016.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iknsa-themes/iknsa-tables-2016.git"
+  },
+  "keywords": [
+    "iknsa-frontend-framework",
+    "tables",
+    "theme",
+    "2016",
+    "css",
+    "variables",
+    "mixins",
+    "compass",
+    "jquery"
+  ],
+  "author": "Khalid Sookia <khalidsookia@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iknsa-themes/iknsa-tables-2016/issues"
+  },
+  "homepage": "https://github.com/iknsa-themes/iknsa-tables-2016",
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-uglify": "^0.8.0",
+    "load-grunt-tasks": "^3.1.0"
+  }
+}

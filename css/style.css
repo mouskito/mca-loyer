@@ -38,7 +38,7 @@ h1{background:linear-gradient(#4BB5C1,#046380);-pie-background:linear-gradient(#
 .trans,.trans:hover{background-color:transparent!important;}
 
 /* STYLES FORMULAIRES */
-select,input,textarea{font-family:'Expletus Sans','Trebuchet MS',sans-serif;font-weight:bold;font-size:2em;}
+select,input,textarea{font-family:'Expletus Sans','Trebuchet MS',sans-serif;font-weight:bold;font-size:1em;}
 select{cursor:pointer;}
 	/* boîtes de dialogue */
 #addformbox{display:none;z-index:1000;}
@@ -62,15 +62,7 @@ select{cursor:pointer;}
 #restant span{font-size:1.2em;}
 .chrono{}
 
-fieldset{display:none;z-index:1004;overflow:hidden;text-align:left;font-size:1em;margin:.5em 1em 2em;background:none;border:none;}
-fieldset span{float:left;display:inline-block;font-size:3em;margin:0 .5em;vertical-align:bottom;}
-fieldset p{display:inline-block;overflow:hidden;color:#7FC6BC;font-size:.5em;font-weight:normal;clear:left;padding-right:.2em;vertical-align:bottom;}
-fieldset h4{font-weight:normal;margin:0;font-size:1.2em;}
-fieldset h5{font-weight:normal;padding:.5em .5em 0 6.5em;font-size:1em;}
-fieldset h3{font-weight:normal;margin:0;text-align:justify;padding:.4em .2em 0 0;}
-fieldset label{border:2px solid #4EA9A0;float:left;overflow:hidden;cursor:pointer;vertical-align:middle;width:95%;font-size:1.1em;margin:.5em 0;padding:.2em .5em;}
-fieldset label:hover{border:2px solid #AEEE00;background:#53872A}
-fieldset label input{cursor:pointer;margin-right:10px;}
+
 /*.checked,fieldset label{border-radius:.4em .4em .1em .4em!important;behavior:url(js/PIE.htc)!important;}*/
 .checked{background:#a52!important;cursor:help;border:2px solid #FF5B2B!important;}
 /*fieldset span{border-radius:.8em .8em .2em .8em;behavior: url(../js/PIE.htc);}*/
@@ -168,14 +160,19 @@ background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
 background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
 }
 #menu-demo2 li:nth-child(3){
-background-color: #F6AD1A;
-background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
-background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
-}#menu-demo2 li:nth-child(4){
+background-color: #729EBF;
+background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+}
+#menu-demo2 li:nth-child(4){
 background-color: #F6AD1A;
 background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
 background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
 }#menu-demo2 li:nth-child(5){
+background-color: #F6AD1A;
+background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
+background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+}#menu-demo2 li:nth-child(6){
 background-color: #F6AD1A;
 background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
 background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
@@ -193,10 +190,13 @@ background:#2A2333;
 background:#333A40;
 }
 #menu-demo2 li:nth-child(3) li{
-background:#9F391A;
-}#menu-demo2 li:nth-child(4) li{
+background:#333A40;
+}
+#menu-demo2 li:nth-child(4) li{
 background:#9F391A;
 }#menu-demo2 li:nth-child(5) li{
+background:#9F391A;
+}#menu-demo2 li:nth-child(6) li{
 background:#9F391A;
 }
 #menu-demo2 li:last-child li{
@@ -210,10 +210,13 @@ background:#65537A;
 background:#729EBF;
 }
 #menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
-background:#F6AD1A;
-}#menu-demo2 li:nth-child(4):hover, #menu-demo2 li:nth-child(4) li:hover{
+background:#729EBF;
+}
+#menu-demo2 li:nth-child(4):hover, #menu-demo2 li:nth-child(4) li:hover{
 background:#F6AD1A;
 }#menu-demo2 li:nth-child(5):hover, #menu-demo2 li:nth-child(5) li:hover{
+background:#F6AD1A;
+}#menu-demo2 li:nth-child(6):hover, #menu-demo2 li:nth-child(6) li:hover{
 background:#F6AD1A;
 }
 #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
@@ -256,3 +259,69 @@ blockquote#style1 {
   #img_err{
     float: left;
   }
+
+  .content{
+    width: 900px;
+    font-family:'Expletus Sans','Trebuchet MS',sans-serif;font-weight:bold;font-size:2em;
+    text-align: center;
+    margin: 25px 295px;;
+    padding: 0
+}
+
+table .table tr td{
+  width:459px; height:24px; font:Arial, Helvetica sans-serif; font-weight:bold; color:#FFFFFF; 
+  padding-left:15; border-bottom:2px solid #0B198C; background-color:#7B869A;
+}
+
+/*============================= Depense ===================================*/
+
+
+    form {
+ padding:10px;
+ width:280px;
+ }
+#section fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ width: 300%;
+ /*margin-left: 180%;*/
+ }
+legend {
+ color:#DF3F3F;
+ font-weight:bold
+ }
+label {
+ margin-top:10px;
+ display:block;
+ }
+label.inline {
+ display:inline;
+ margin-right:90px;
+ }
+input, textarea, select, option {
+ background-color:#FFF3F3;
+ }
+input, textarea, select {
+ padding:3px;
+ border:1px solid #F5C5C5;
+ border-radius:5px;
+ width:97%;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+select {
+ margin-top:10px;
+ }
+input[type=radio] {
+ background-color:transparent;
+ border:none;
+ width:10px;
+ }
+input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ margin-left: 25%;
+ }
+ 

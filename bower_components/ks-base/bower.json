@@ -1,0 +1,27 @@
+{
+  "name": "ks-base",
+  "version": "0.0.3",
+  "homepage": "https://github.com/ks-frontend/ks-base.git",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "Just a basic folder structure for the ks-frontend-framework plugins",
+  "main": "ks-base/templates/base.html",
+  "keywords": [
+    "Front end file structure"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/contrib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ks-core": "~0.0.2"
+  },
+  "devDependencies": {
+  }
+}

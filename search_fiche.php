@@ -3,7 +3,7 @@ session_start();
   // header de page
     include"include/header.php";
     include 'fonctions.php';
-    //accesDenied();
+    include 'cnx/cnx_bdd.php';
 ?>
 
 <!DOCTYPE html>
@@ -14,41 +14,40 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Loyer - Accueil</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Style -->
-    <link href="css/font.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">        
+      
 </head>
   <body>
-    <div id='section'>
-                <?php
-            if (isset($_SESSION['pseudo']) && isset($_SESSION['modpass'])  != "" ) {
-            //  if (check_login()) {
-               
-               include 'include/nav.php'; ?>
-<center>
+   <div id='section'>
+    <div class="logged">
+              <?php
+            connectionOK();
+            ?> </div>
+
+<div class="content">
+
    <table >
 <tr>
 <form action="search.php" method="POST" onchange="this.form.submit();" >
 <td>
                    <label for="pays">Choisir un mois</label>
-                     <select name="mois">
-                     <option value="" > </option>
-                      <option value="janvier" > Janvier</option>
-                      <option value="fevrier"> Février</option>
-                      <option value="mars"> Mars</option>
-                      <option value="avril"> Avril</option>
-                      <option value="mai"> Mai</option>
-                      <option value="juin"> Juin</option>
-                      <option value="juillet"> Juillet</option>
-                      <option value="aout"> Aout</option>
-                       <option value="spetembre"> Septembre</option>
-                      <option value="octobre"> Octobre</option>
-                      <option value="novembre"> Novembre</option>
-                      <option value="decembre"> Dècembre</option>
-                    </select> </td>
+                     
+                    <select name="search_mois" onchange="this.form.submit();" >
+                    <option value="" > </option>
+                    <?php
+
+                    $query = "SELECT DISTINCT mois FROM fiche_locataire";
+                    $reponse=mysql_query($query);
+                    while ($donnees  = mysql_fetch_array($reponse))
+
+                    { ?>  
+                         <option value="<?php echo $donnees['mois'];?>"> <?php echo $donnees['mois']; ?></option>
+                    
+                     <?php
+                    }
+                    ?>
+                    </select></td>
+                    
+
                     <td><label for="pays">Saisir nom du locataire</label>
                     <select name="search" onchange="this.form.submit();" >
                     <option value="" > </option>
@@ -56,25 +55,24 @@ session_start();
 
                     $query = "SELECT * FROM fiche_locataire";
                     $reponse=mysql_query($query);
-                    //$reponse = $base->query('SELECT * FROM fiche_locataire');
-                     //echo "string";
                     while ($donnees  = mysql_fetch_array($reponse))
 
                     { ?>  
-                <option value="<?php echo $donnees['nom'];?>"> <?php echo $donnees['nom']; ?></option>
+                      <option value="<?php echo $donnees['nom'];?>"> <?php echo $donnees['nom']." " . $donnees['prenom']; ?></option>
                     
                      <?php
                     }
                     ?>
                     </select></td>
-                    </tr>
-</form>
+                   
+</form> </tr>
 </table> 
-</center>
-<?php }
-        else {?>
-        <blockquote id="style1">Vous devez connecter pour acceder à l'appli.</blockquote> 
-          
-         <?php }?>
-</body>
-</html>
+</div>
+<?php
+    include 'include/footer.php';
+?>
+
+</body></html>
+
+
+

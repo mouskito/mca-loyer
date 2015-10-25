@@ -1,0 +1,35 @@
+{
+  "name": "ks-form",
+  "version": "0.0.2",
+  "homepage": "https://github.com/ks-frontend/ks-form.git",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "The ks-form library contains a basic styling to extend from when building themes and a couple of js strategies to deal with different form events",
+  "main": "lib/form.scss",
+  "keywords": [
+    "ks-form, library, form, jquery, events"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/contrib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ks-core": "~0.0.2"
+  },
+  "devDependencies": {},
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "8adf9f0bfe2cc40b157339ad7b4aae6b8ee65a36"
+  },
+  "_source": "git://github.com/ks-frontend/ks-form.git",
+  "_target": "0.0.2",
+  "_originalSource": "ks-form"
+}

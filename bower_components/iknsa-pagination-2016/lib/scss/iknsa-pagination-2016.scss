@@ -1,0 +1,9 @@
+@import "variables";
+@import "mixins";
+
+.pagination
+{
+    input, a, div, span, li, button {
+        color: $pagination-color;
+    }
+}

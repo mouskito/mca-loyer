@@ -3,17 +3,7 @@ session_start();
   // header de page
     include"include/header.php";
     include 'fonctions.php';
-   // include 'connect.php';
-    //accesDenied();
-    $server="localhost";
-$user="root";
-$pass="root";
-$base="facturation";
-
-try{$data=new PDO("mysql:host=$server;dbname=$base",$user,$pass);}catch(Exception $err){
-    die("<br/><br/><br/><p class='error-num'>Erreur de connexion à la base de données !<br/>
-        Veuillez vérifier vos paramètres de configuration.<br/><br/>Détails de l'erreur :<br/><br/>".$err->getMessage());}
-$con=mysql_connect($server,$user,$pass);mysql_select_db($base);
+    include 'cnx/cnx_bdd.php';
 ?>
 
 <!DOCTYPE html>
@@ -24,26 +14,17 @@ $con=mysql_connect($server,$user,$pass);mysql_select_db($base);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Loyer - Accueil</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Style -->
-    <link href="css/font.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">        
+      
 </head>
   <body>
-    <div id='section'>
-                <?php
-            if (isset($_SESSION['pseudo']) && isset($_SESSION['modpass'])  != "" ) {
-            //  if (check_login()) {
-               
-               include 'include/nav.php';
-               ?>
-
-<html>
-<body>
+   <div id='section'>
+    <div class="logged">
+              <?php
+            connectionOK();
+            ?> </div>
+    <div class="content">
 <center>
-   <table >
+   <table class="table table-striped">
 <tr>
 <form action="traitement.php" method="POST">
                     <td class="text-left"> Mois: 
@@ -70,15 +51,16 @@ $con=mysql_connect($server,$user,$pass);mysql_select_db($base);
 </center>
 
 
-                    <table class="table-fill">
+                    <table class="table table-striped">
 
                     <thead>
-                    <tr>
+                    <tr class="danger">
                     <th class="text-left">Nom </th>
                     <th class="text-left">Prenom</th>
                     <th class="text-left">Somme versée</th>
                     <th class="text-left">Arrieré</th>
                     <th class="text-left">Dépenses</th>
+                    <th class="text-left">Mois</th>
                     </tr>
                     </thead>
                     <tbody class="table-hover">
@@ -103,20 +85,18 @@ $reponse=mysql_query($query);
                     }
                     ?>
                     </tbody>
-                    </table></br></br></br>
-                    <table>
-                        
-                    </table>
+                    </table></br>
+                  
                     <tr>
                         <TEXTAREA name="adresse" rows="6" cols="50"> </TEXTAREA>
                         </tr>
                    <input type="submit" value="envoyer">
                         <input type="reset" value="Effacer">
                 </form>
-                <?php } 
-                else {?>
-        <blockquote id="style1">Vous devez connecter pour acceder à l'appli.</blockquote> 
-          
-         <?php }?>
+          </div>
+<?php
+    include 'include/footer.php';
+?>
+</tr></table></center></div></div>
 </body>
 </html>

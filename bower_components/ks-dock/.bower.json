@@ -1,0 +1,35 @@
+{
+  "name": "ks-dock",
+  "version": "0.0.3",
+  "homepage": "https://github.com/ks-frontend/ks-dock.git",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "Top Dock bar library part of iknsa-frontend-framework but can be used independently",
+  "main": "vendor/iknsa/ks/lib/ks-front-dock/dock.js",
+  "keywords": [
+    "Dock,bar,css, compass, jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/contrib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ks-core": "~0.0.2"
+  },
+  "devDependencies": {},
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.3",
+    "commit": "c148803449e0b68c2c3dc0655ac2642e79d6bb9a"
+  },
+  "_source": "git://github.com/ks-frontend/ks-dock.git",
+  "_target": "0.0.3",
+  "_originalSource": "ks-dock"
+}

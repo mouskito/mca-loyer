@@ -1,0 +1,35 @@
+{
+  "name": "ks-buttons",
+  "version": "0.0.3",
+  "homepage": "https://github.com/ks-frontend/ks-buttons.git",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "Buttons library. Consists of a couple of mixins and variables which may come in handly.",
+  "main": "lib/buttons.js",
+  "keywords": [
+    "buttons, style, css, jquery,library"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/contrib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ks-core": "~0.0.2"
+  },
+  "devDependencies": {},
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.3",
+    "commit": "d28cae7ca67d62295f79571b556259225a828616"
+  },
+  "_source": "git://github.com/ks-frontend/ks-buttons.git",
+  "_target": "0.0.3",
+  "_originalSource": "ks-buttons"
+}

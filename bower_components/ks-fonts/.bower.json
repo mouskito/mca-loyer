@@ -1,0 +1,35 @@
+{
+  "name": "ks-fonts",
+  "version": "0.0.3",
+  "homepage": "https://github.com/ks-frontend/ks-fonts.git",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "A couple of mixins for easy integration with any compass project or the Font-face integration into any project with css from scratch",
+  "main": "lib/fonts.scss",
+  "keywords": [
+    "Font-face, mixin, library,ks-frontend-framework, css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/contrib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ks-core": "~0.0.2"
+  },
+  "devDependencies": {},
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.3",
+    "commit": "155e7d9ea35d44925a647b1f0a5a1ef79da1092b"
+  },
+  "_source": "git://github.com/ks-frontend/ks-fonts.git",
+  "_target": "0.0.3",
+  "_originalSource": "ks-fonts"
+}

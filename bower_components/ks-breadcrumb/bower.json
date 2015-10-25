@@ -1,0 +1,27 @@
+{
+  "name": "ks-breadcrumb",
+  "version": "0.0.2",
+  "homepage": "https://github.com/ks-frontend/ks-breadcrumb.git",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "The breadcrumb library which is mostly like a normalize of breadcrumb in general",
+  "main": "/lib/breadcrumb.js",
+  "keywords": [
+    "Breadcrumb, ks-frontend-framework, ks-breadcrumb"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/contrib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ks-core": "0.0.2"
+  },
+  "devDependencies": {
+  }
+}

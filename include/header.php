@@ -18,8 +18,9 @@ session_start();
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Style -->
-    <link href="css/font.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">		
+  <!--   <link href="css/font.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> -->	
+    <link rel="stylesheet" type="text/css" href="css/min.css">	
 </head>
   <body>
   	<div id='section'>

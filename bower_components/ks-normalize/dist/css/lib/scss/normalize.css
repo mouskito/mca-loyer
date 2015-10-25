@@ -1,0 +1,11 @@
+/* line 1, ../../../../lib/scss/normalize.scss */
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../../../../lib/scss/normalize.scss */
+li {
+  list-style: none;
+  display: inline-block;
+}

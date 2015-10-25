@@ -1,0 +1,37 @@
+{
+  "name": "ks-list",
+  "version": "0.0.3",
+  "description": "Basic styling of lists to extend from. This library is part of iknsa-frontend-framework but can be used independently",
+  "main": "templates/list.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ks-frontend/ks-list.git"
+  },
+  "keywords": [
+    "iknsa-frontend-framework",
+    "list",
+    "css",
+    "variables",
+    "mixins",
+    "compass",
+    "jquery"
+  ],
+  "author": "Khalid Sookia <khalidsookia@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ks-frontend/ks-list/issues"
+  },
+  "homepage": "https://github.com/ks-frontend/ks-list",
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-uglify": "^0.8.0",
+    "load-grunt-tasks": "^3.1.0"
+  }
+}

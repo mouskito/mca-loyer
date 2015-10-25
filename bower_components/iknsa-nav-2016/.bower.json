@@ -1,0 +1,35 @@
+{
+  "name": "iknsa-nav-2016",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ks-frontend/iknsa-nav-2016.git",
+  "authors": [
+    "Khalid Sookia <khalidsookia@gmail.com>"
+  ],
+  "description": "ks-frontend-framework nav theme",
+  "main": "lib/nav.scss",
+  "keywords": [
+    "nav, styling, iknsa-nav-2016, iknsa-frontend-framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/contrib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ks-core": "~0.0.2"
+  },
+  "devDependencies": {},
+  "_release": "0.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.0",
+    "commit": "e996d0b674d78f2c54d51a2f087e46e780bb8a83"
+  },
+  "_source": "git://github.com/iknsa-themes/iknsa-nav-2016.git",
+  "_target": "0.0.0",
+  "_originalSource": "iknsa-nav-2016"
+}
