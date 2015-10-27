@@ -261,11 +261,10 @@ blockquote#style1 {
   }
 
   .content{
-    width: 900px;
     font-family:'Expletus Sans','Trebuchet MS',sans-serif;font-weight:bold;font-size:2em;
     text-align: center;
-    margin: 25px 295px;;
-    padding: 0
+    margin: 25px 125px;;
+    padding: 0;
 }
 
 table .table tr td{

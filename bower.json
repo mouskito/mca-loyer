@@ -16,5 +16,8 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.5"
+  },
+  "devDependencies": {
+    "pickadate": "~3.5.6"
   }
 }
